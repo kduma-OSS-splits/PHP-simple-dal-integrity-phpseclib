@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace KDuma\SimpleDAL\DataIntegrity\PhpSecLib;
+namespace KDuma\SimpleDAL\Integrity\PhpSecLib;
 
 use phpseclib3\Crypt\EC\PrivateKey;
 use phpseclib3\Crypt\EC\PublicKey;

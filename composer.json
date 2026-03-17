@@ -1,6 +1,6 @@
 {
-    "name": "kduma/simple-dal-data-integrity-phpseclib",
-    "description": "Simple DAL - phpseclib3 data integrity signing implementations",
+    "name": "kduma/simple-dal-integrity-phpseclib",
+    "description": "Simple DAL - phpseclib3 integrity signing implementations",
     "type": "library",
     "license": "MIT",
     "keywords": [
@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": "^8.4",
-        "kduma/simple-dal-data-integrity-contracts": "^0.1",
+        "kduma/simple-dal-integrity-contracts": "^0.1",
         "phpseclib/phpseclib": "^3.0"
     },
     "require-dev": {
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "KDuma\\SimpleDAL\\DataIntegrity\\PhpSecLib\\": "src/"
+            "KDuma\\SimpleDAL\\Integrity\\PhpSecLib\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "KDuma\\SimpleDAL\\DataIntegrity\\PhpSecLib\\Tests\\": "tests/"
+            "KDuma\\SimpleDAL\\Integrity\\PhpSecLib\\Tests\\": "tests/"
         }
     },
     "extra": {

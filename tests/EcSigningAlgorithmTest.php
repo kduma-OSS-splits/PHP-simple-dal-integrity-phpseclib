@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use KDuma\SimpleDAL\DataIntegrity\PhpSecLib\EcSigningAlgorithm;
+use KDuma\SimpleDAL\Integrity\PhpSecLib\EcSigningAlgorithm;
 use phpseclib3\Crypt\EC;
 use phpseclib3\Crypt\EC\PublicKey;
 

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use KDuma\SimpleDAL\DataIntegrity\PhpSecLib\RsaSigningAlgorithm;
+use KDuma\SimpleDAL\Integrity\PhpSecLib\RsaSigningAlgorithm;
 use phpseclib3\Crypt\RSA;
 use phpseclib3\Crypt\RSA\PrivateKey;
 use phpseclib3\Crypt\RSA\PublicKey;
